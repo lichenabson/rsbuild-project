@@ -3,18 +3,25 @@
 var __webpack_modules__ = ({
 "487": (function (module, __unused_webpack___webpack_exports__, __webpack_require__) {
 __webpack_require__.a(module, async function (__webpack_handle_async_dependencies__, __webpack_async_result__) { try {
+/* ESM import */var _swc_helpers_async_to_generator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(387);
 /* ESM import */var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(318);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([react__WEBPACK_IMPORTED_MODULE_0__]);
 react__WEBPACK_IMPORTED_MODULE_0__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];/* ESM import */var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
-const testA = async ()=>{
-    await new Promise((resolve)=>{
-        setTimeout(()=>{
-            resolve(1);
-        }, 1000);
+
+const testA = /*#__PURE__*/ function() {
+    var _ref = (0,_swc_helpers_async_to_generator__WEBPACK_IMPORTED_MODULE_1__._)(function*() {
+        yield new Promise((resolve)=>{
+            setTimeout(()=>{
+                resolve(1);
+            }, 1000);
+        });
+        console.log('test');
     });
-    console.log('test');
-};
+    return function testA() {
+        return _ref.apply(this, arguments);
+    };
+}();
 console.log('useEffect', react__WEBPACK_IMPORTED_MODULE_0__.useEffect);
 testA();
 
@@ -38,6 +45,44 @@ __webpack_require__.l("https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.produ
   reject(__webpack_error__);
 }, "React");
 }).then(function() { return React; });
+
+
+}),
+"387": (function (__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) {
+__webpack_require__.d(__webpack_exports__, {
+  _: function() { return _async_to_generator; }
+});
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+    try {
+        var info = gen[key](arg);
+        var value = info.value;
+    } catch (error) {
+        reject(error);
+        return;
+    }
+    if (info.done) resolve(value);
+    else Promise.resolve(value).then(_next, _throw);
+}
+function _async_to_generator(fn) {
+    return function() {
+        var self = this, args = arguments;
+
+        return new Promise(function(resolve, reject) {
+            var gen = fn.apply(self, args);
+
+            function _next(value) {
+                asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+            }
+
+            function _throw(err) {
+                asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+            }
+
+            _next(undefined);
+        });
+    };
+}
+
 
 
 }),
