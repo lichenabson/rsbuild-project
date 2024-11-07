@@ -9,12 +9,12 @@
     ]
   },
   "data": {
-    "hash": "1f175b7ce2fcee85dd2e18ca849c1a90",
+    "hash": "383fcea50c6010cfe49b8b8161b766a5",
     "root": "/Users/lichen/Documents/test-2024/rsbuild-project",
     "envinfo": [
       "/Users/lichen/Documents/test-2024/rsbuild-project/dist/.rsdoctor/envinfo/0"
     ],
-    "pid": 52281,
+    "pid": 52840,
     "errors": [
       "/Users/lichen/Documents/test-2024/rsbuild-project/dist/.rsdoctor/errors/0"
     ],

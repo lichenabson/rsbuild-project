@@ -16,7 +16,7 @@ export default defineConfig({
           new RsdoctorRspackPlugin({
             linter: {
               rules: {
-                'ecma-version-check': ['Error', { highestVersion: 'ES5', ignore: [] }],
+                // 'ecma-version-check': ['Error', { highestVersion: 'ES7+', ignore: [] }],
               },
             },
           })
