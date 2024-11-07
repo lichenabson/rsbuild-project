@@ -1,7 +1,7 @@
 (() => { // webpackBootstrap
 "use strict";
 var __webpack_modules__ = ({
-"487": (function (module, __unused_webpack___webpack_exports__, __webpack_require__) {
+"262": (function (module, __unused_webpack___webpack_exports__, __webpack_require__) {
 __webpack_require__.a(module, async function (__webpack_handle_async_dependencies__, __webpack_async_result__) { try {
 /* ESM import */var _swc_helpers_async_to_generator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(387);
 /* ESM import */var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(318);
@@ -303,6 +303,6 @@ __webpack_require__.ruid = "bundler=rspack@1.0.14";
 // startup
 // Load entry module and return exports
 // This entry module used 'module' so it can't be inlined
-var __webpack_exports__ = __webpack_require__("487");
+var __webpack_exports__ = __webpack_require__("262");
 })()
 ;

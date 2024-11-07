@@ -1,0 +1,52 @@
+{
+  "client": {
+    "enableRoutes": [
+      "Overall",
+      "Compile.WebpackLoaders",
+      "Compile.WebpackPlugins",
+      "Bundle.ModuleGraph",
+      "Bundle.BundleSize"
+    ]
+  },
+  "data": {
+    "hash": "1f175b7ce2fcee85dd2e18ca849c1a90",
+    "root": "/Users/lichen/Documents/test-2024/rsbuild-project",
+    "envinfo": [
+      "/Users/lichen/Documents/test-2024/rsbuild-project/dist/.rsdoctor/envinfo/0"
+    ],
+    "pid": 52281,
+    "errors": [
+      "/Users/lichen/Documents/test-2024/rsbuild-project/dist/.rsdoctor/errors/0"
+    ],
+    "configs": [
+      "/Users/lichen/Documents/test-2024/rsbuild-project/dist/.rsdoctor/configs/0"
+    ],
+    "summary": [
+      "/Users/lichen/Documents/test-2024/rsbuild-project/dist/.rsdoctor/summary/0"
+    ],
+    "resolver": [
+      "/Users/lichen/Documents/test-2024/rsbuild-project/dist/.rsdoctor/resolver/0"
+    ],
+    "loader": [
+      "/Users/lichen/Documents/test-2024/rsbuild-project/dist/.rsdoctor/loader/0"
+    ],
+    "moduleGraph": [
+      "/Users/lichen/Documents/test-2024/rsbuild-project/dist/.rsdoctor/moduleGraph/0"
+    ],
+    "chunkGraph": [
+      "/Users/lichen/Documents/test-2024/rsbuild-project/dist/.rsdoctor/chunkGraph/0"
+    ],
+    "moduleCodeMap": [
+      "/Users/lichen/Documents/test-2024/rsbuild-project/dist/.rsdoctor/moduleCodeMap/0"
+    ],
+    "plugin": [
+      "/Users/lichen/Documents/test-2024/rsbuild-project/dist/.rsdoctor/plugin/0"
+    ],
+    "packageGraph": [
+      "/Users/lichen/Documents/test-2024/rsbuild-project/dist/.rsdoctor/packageGraph/0"
+    ],
+    "otherReports": [
+      "/Users/lichen/Documents/test-2024/rsbuild-project/dist/.rsdoctor/otherReports/0"
+    ]
+  }
+}
